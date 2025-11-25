@@ -21,11 +21,12 @@ edgecases (e.g. serveral operators in a row, or spaces in odd places), but I am 
 
 * It works for addition, subtraction, multiplication and division in any order and for any 
   number of operands.
+* The methods performing the mathematical operations can handle any number of parameters.
 * I use Regex.Split() to create a list of tokens from the original input expression.
 * This token-list is cleaned of empty strings, whitespaces and corrected for negative numbers.
 * I perfom all multiplications and divisions before I finally calculate the final result by
   completing additions and subtractions.
-* Most of the code is contined within a try-catch block, so any exceptions will just show the type 
+* Most of the code is contained within a try-catch block, so any exceptions will just show the type 
   of error and give the user another try. I do throw a couple of exceptions:
 	* Division by zero
 	* If the expression contains anything beside +,-,*,/ or numbers.
