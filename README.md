@@ -1,4 +1,4 @@
-# C-Sharp Basic Assignment 2 - Calculator
+# C# Basic Assignment 2 - Calculator
 
  Your assignment is to create a basic Console-based calculator using C#. It should 
  be able to handle basic mathematical operations (addition, subtraction, multiplication,
